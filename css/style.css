@@ -120,7 +120,8 @@ body {
   background-color: var(--gray-800);
   border-radius: var(--border-radius);
   padding: 1.5rem;
-  display: none; /* Cambiado de flex a none */
+  display: flex;
+  visibility: hidden; /* Oculto por defecto */
   align-items: center;
   justify-content: space-between;
   box-shadow: var(--shadow-md);
@@ -133,7 +134,7 @@ body {
 }
 
 .tile__visible {
-  display: flex; /* Añadido para mostrar cuando es visible */
+  visibility: visible;
   opacity: 1;
   scale: 1;
   transform: translateY(0);
@@ -228,7 +229,7 @@ body {
 
 /* Mobile Start Button */
 .mobile-start {
-  display: none;
+  display: flex; /* El botón de inicio móvil es visible por defecto en móvil */
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -291,6 +292,7 @@ body {
 /* KEYBOARD AREA */
 
 .keyboard-area {
+  display: none; /* El teclado está oculto por defecto en móvil */
   width: 100%;
   max-width: 900px;
 }
@@ -461,18 +463,13 @@ body {
   font-size: 0.875rem;
 }
 
-/* Hide keyboard on mobile and show mobile start button */
-@media (max-width: 1024px) {
+/* Reglas para escritorio  */
+@media (min-width: 1025px) {
   .keyboard-area {
-    display: none;
+    display: flex; /* Mostrar teclado en escritorio (revisa si era flex o block) */
   }
-
   .mobile-start {
-    display: flex;
-  }
-
-  .mobile-start--active {
-    display: none;
+    display: none; /* Ocultar botón de inicio móvil en escritorio */
   }
 }
 
