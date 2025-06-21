@@ -14,15 +14,20 @@ Ideal para quienes desean mejorar su velocidad de escritura o verificar el estad
 
 ## 📚 Tabla de Contenidos
 
-- [Acerca del Proyecto](#-acerca-del-proyecto)
-- [Características](#-características)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Primeros Pasos](#-primeros-pasos)
-  - [Prerrequisitos](#prerrequisitos)
-  - [Instalación](#instalación)
-- [Uso](#-uso)
-- [Licencia](#-licencia)
-- [Contacto](#-contacto)
+- [⌨️ Testclado — Prueba tu velocidad de tipeo](#️-testclado--prueba-tu-velocidad-de-tipeo)
+  - [📝 Descripción](#-descripción)
+    - [Link](#link)
+  - [📚 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [💡 Acerca del Proyecto](#-acerca-del-proyecto)
+  - [✨ Características](#-características)
+  - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+  - [⚡ Rendimiento Web](#-rendimiento-web)
+  - [🚀 Primeros Pasos](#-primeros-pasos)
+    - [Prerrequisitos](#prerrequisitos)
+    - [Instalación](#instalación)
+  - [🏃 Uso](#-uso)
+  - [📄 Licencia](#-licencia)
+  - [📧 Contacto](#-contacto)
 
 ---
 
@@ -49,6 +54,14 @@ Además, si alguna tecla no responde correctamente, también podrás notarlo de 
 Este proyecto se basa en las tecnologías web fundamentales, lo que garantiza su ligereza y compatibilidad:
 
 - **Frontend:** HTML5, CSS3, JavaScript
+
+---
+
+## ⚡ Rendimiento Web
+
+La calidad y la eficiencia son fundamentales. A continuación, se presenta un análisis del rendimiento de la aplicación según las métricas de PageSpeed Insights:
+
+![PageSpeed Insights Score](./assets/PageSpeed-score.png) Aspecto del informe de PageSpeed Insights con puntuaciones de Rendimiento 99, Accesibilidad 100, Prácticas recomendadas 100 y SEO 100.
 
 ---
 
